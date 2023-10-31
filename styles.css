@@ -62,3 +62,22 @@ body {
     left: 15%;
 }
 
+.window-frame-right {
+    height: 100%;
+    width: 30%;
+    top: 10%;
+    right: -7%;
+    overflow: hidden;
+}
+
+.window-frame-right::after {
+    content: "";
+    position: absolute;
+    height: 310%;
+    width: 100%;
+    border-right: 0.3vw solid #ffffffd0;
+    border-radius: 100%;
+    transform: rotate(-25deg);
+    top: -90%;
+    right: 15%;
+}
