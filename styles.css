@@ -801,3 +801,7 @@ body {
         background: radial-gradient( #fff 10%, #58aeffcc 30%, rgba(0, 0, 172, 0.719) 60%, #00000034 90%);
     }
 }
+
+.left-glow {
+    left: -3%;
+}
