@@ -818,3 +818,9 @@ body {
     border-radius: 40px;
     top: 19%;
 }
+
+.shadow-left {
+    left: 8%;
+    transform: rotate(-15deg);
+}
+
