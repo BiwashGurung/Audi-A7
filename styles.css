@@ -794,3 +794,10 @@ body {
     border-radius: 100%;
     transform: scale(1.1);
     animation: glow 0.5s 1.2s linear forwards;
+}
+
+@keyframes glow {
+    to {
+        background: radial-gradient( #fff 10%, #58aeffcc 30%, rgba(0, 0, 172, 0.719) 60%, #00000034 90%);
+    }
+}
