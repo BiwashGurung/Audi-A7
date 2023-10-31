@@ -32,3 +32,33 @@ body {
     top: 15%;
 }
 
+.window-frame-top {
+    height: 25%;
+    width: 85%;
+    border-radius: 100%;
+    border-top: 0.25vw solid rgba(255, 255, 255, 0.486);
+    left: 50%;
+    top: -5%;
+    transform: translateX(-50%);
+}
+
+.window-frame-left {
+    height: 100%;
+    width: 30%;
+    top: 10%;
+    left: -7%;
+    overflow: hidden;
+}
+
+.window-frame-left::after {
+    content: "";
+    position: absolute;
+    height: 310%;
+    width: 100%;
+    border-left: 0.3vw solid rgba(255, 255, 255, 0.815);
+    border-radius: 100%;
+    transform: rotate(25deg);
+    top: -85%;
+    left: 15%;
+}
+
