@@ -784,3 +784,13 @@ body {
     }
 }
 
+.glow {
+    z-index: 5;
+    height: 45%;
+    width: 23%;
+    filter: blur(8px);
+    background-color: transparent;
+    top: 16%;
+    border-radius: 100%;
+    transform: scale(1.1);
+    animation: glow 0.5s 1.2s linear forwards;
