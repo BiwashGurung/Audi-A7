@@ -809,3 +809,12 @@ body {
 .right-glow {
     right: -3%;
 }
+
+.shadow {
+    height: 60%;
+    width: 7%;
+    background-color: rgba(0, 0, 0, 0.548);
+    z-index: 10;
+    border-radius: 40px;
+    top: 19%;
+}
