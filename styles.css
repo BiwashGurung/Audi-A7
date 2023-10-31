@@ -824,3 +824,7 @@ body {
     transform: rotate(-15deg);
 }
 
+.shadow-right {
+    right: 8%;
+    transform: rotate(15deg);
+}
