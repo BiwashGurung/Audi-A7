@@ -805,3 +805,7 @@ body {
 .left-glow {
     left: -3%;
 }
+
+.right-glow {
+    right: -3%;
+}
