@@ -777,3 +777,10 @@ body {
     z-index: 3;
     animation: dark 1s 1.5s linear forwards;
 }
+
+@keyframes dark {
+    to {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
