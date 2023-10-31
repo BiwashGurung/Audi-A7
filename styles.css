@@ -769,3 +769,11 @@ body {
     background: linear-gradient(#000, rgba(0, 0, 92, 0.596));
     border-radius: 100%;
 }
+
+.dark {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.781);
+    z-index: 3;
+    animation: dark 1s 1.5s linear forwards;
+}
